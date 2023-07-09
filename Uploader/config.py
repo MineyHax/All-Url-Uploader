@@ -33,17 +33,17 @@ logging.basicConfig(
 
 
 class Config(object):
-    WEBHOOK = os.environ.get("BOT_TOKEN", False)
+    WEBHOOK = os.environ.get("6310727565:AAE2DNZFtiZeLf4iQjlI3L43TPYbcxXa2R0", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("6310727565:AAE2DNZFtiZeLf4iQjlI3L43TPYbcxXa2R0", "")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("23092918", 12345))
+    API_HASH = os.environ.get("39b7667880f19ae53a4ec71bda330a74")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
     # File /video download location
-    DOWNLOAD_LOCATION = "./DOWNLOADS"
+    DOWNLOAD_LOCATION = "Downloads\who.mp4"
 
     MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "None")
     # If deploying on vps edit the above value as example := Mega_email = "Your-Mega_email-inside-inverted-commas."
